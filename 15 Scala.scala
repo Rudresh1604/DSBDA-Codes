@@ -34,3 +34,16 @@ object Calculator {
  }
  }
 }
+
+
+object Arithmetic {
+  def main(args: Array[String]): Unit = {
+    val a = 10
+    val b = 5
+
+    println(s"Addition: $a + $b = ${a + b}")
+    println(s"Subtraction: $a - $b = ${a - b}")
+    println(s"Multiplication: $a * $b = ${a * b}")
+    println(s"Division: $a / $b = ${a / b}")
+  }
+}
