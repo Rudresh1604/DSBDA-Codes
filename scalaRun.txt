@@ -1,0 +1,24 @@
+To run this:
+
+Step 1:
+Save your Scala code that is in pdf file with a `.scala` extension, for example:
+MyProgram.scala
+
+Save it on the Desktop.
+
+Step 2:
+Then open in terminal at desktop(as saved at desktop our code file)
+
+Step 3:
+Compile the Scala code using:
+scalac MyProgram.scala
+
+Note:
+If successful, this will generate one or more `.class` files in the same directory.
+If no `.class` files appear, check your code for errors.
+
+Step 4:
+Run the compiled Scala program using:
+scala MyProgram
+
+(make sure you leave off the `.scala` extension when running)
